@@ -105,12 +105,6 @@ Idéal pour :
 • Clubs sportifs souhaitant digitaliser leurs réservations
 • Associations gérant des équipements sportifs
 
-INSTALLATION
-1. Cloner le repository
-2. Configurer la base de données MySQL
-3. Modifier les paramètres de connexion dans /config/
-4. Déployer sur serveur Apache
-5. Importer le schéma de base de données
 
 CONCLUSION
 Ce projet représente une solution professionnelle complète pour la gestion de terrains sportifs, intégrant toutes les fonctionnalités nécessaires pour un usage commercial : gestion des utilisateurs, réservations intelligentes, interface d'administration, sécurité robuste et design moderne.

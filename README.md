@@ -43,18 +43,6 @@ Base de données : MySQL
 Serveur : Apache (XAMPP)
 Design : CSS Grid/Flexbox, Font Awesome
 
-ARCHITECTURE DU PROJET
-
-Structure des Dossiers
-/project/
-├── /admin/          Interface d'administration
-├── /joueur/         Interface utilisateur
-├── /css/           Feuilles de style
-├── /js/            Scripts JavaScript
-├── /images/        Images système
-├── /uploads/       Images téléchargées
-└── /config/        Configuration base de données
-
 Base de Données
 • 4 tables principales : joueurs, terrains, reservations, admin
 • Relations optimisées avec clés étrangères

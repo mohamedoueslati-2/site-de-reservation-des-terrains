@@ -112,7 +112,9 @@ Ce projet représente une solution professionnelle complète pour la gestion de 
 images de app : 
 parti utilisateur : 
 page index visiteur :
-![Capture d’écran (8)](https://github.com/user-attachments/assets/b46de86d-adf5-4f76-b773-0e52a6418921)
+![Capture d’écran (6)](https://github.com/user-attachments/assets/e16c1545-7c69-452f-8ba3-5d4349bee8df)
+![Capture d’écran (7)](https://github.com/user-attachments/assets/fc672239-fce2-41d6-bc0f-be20dc928a92)
+![Uploading Capture d’écran (8).png…]()
 
 parti joueur : 
 

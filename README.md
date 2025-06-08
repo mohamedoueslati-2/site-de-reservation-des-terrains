@@ -119,13 +119,18 @@ parti utilisateur :
 ![Capture d’écran (5)](https://github.com/user-attachments/assets/e28d2a00-e75c-4676-a6af-e733019a78d7)
 
 parti joueur : 
+
 ![Capture d’écran (9)](https://github.com/user-attachments/assets/5f8105cf-9aa2-463c-bde5-5ed5a678b6ca)
 ![Capture d’écran (10)](https://github.com/user-attachments/assets/1d68f42d-0c3e-47b7-8085-2d94bee3ed53)
 ![Capture d’écran (11)](https://github.com/user-attachments/assets/838efeba-eb01-4455-b0df-b5ab4eb5827e)
 ![Capture d’écran (10)](https://github.com/user-attachments/assets/91679637-472f-4619-b8ff-309e4dfe02bf)
 
+parti admin
 
-
-
-
-
+![Capture d’écran (13)](https://github.com/user-attachments/assets/a35d3a0f-df51-44a6-90b2-ce85a294d16d)
+![Capture d’écran (15)](https://github.com/user-attachments/assets/9cd05aa9-297d-494f-ad10-dad0742a438e)
+![Capture d’écran (16)](https://github.com/user-attachments/assets/376c9e7a-274f-4bfb-b253-54030dc1b673)
+![Capture d’écran (17)](https://github.com/user-attachments/assets/8ec6d770-f9f9-48f9-a767-557be122c315)
+![Capture d’écran (18)](https://github.com/user-attachments/assets/621057c2-a8cb-426c-aac7-0fde3b48a191)
+![Capture d’écran (19)](https://github.com/user-attachments/assets/0a0850f7-1834-413d-9570-c316c902068f)
+![Capture d’écran (20)](https://github.com/user-attachments/assets/fb05fc89-db16-49b2-9c20-81af3056c586)

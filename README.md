@@ -134,3 +134,9 @@ parti admin
 ![Capture d’écran (18)](https://github.com/user-attachments/assets/621057c2-a8cb-426c-aac7-0fde3b48a191)
 ![Capture d’écran (19)](https://github.com/user-attachments/assets/0a0850f7-1834-413d-9570-c316c902068f)
 ![Capture d’écran (20)](https://github.com/user-attachments/assets/fb05fc89-db16-49b2-9c20-81af3056c586)
+
+bd : 
+
+![Capture d’écran (24)](https://github.com/user-attachments/assets/d717d277-48a5-47cf-a84e-33b78f471476)
+![Capture d’écran (22)](https://github.com/user-attachments/assets/0c7359db-11fd-421f-b59c-2c271b40f8c7)
+![Capture d’écran (21)](https://github.com/user-attachments/assets/6f13ae0e-52f1-46cf-924c-c4352263f531)

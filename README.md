@@ -6,12 +6,14 @@ Une pour les joueurs (réservation, profil, historique)
 
 Une pour les administrateurs (gestion des terrains, utilisateurs et statistiques)
 
+
 Fonctionnalités Clés
 🔹 Gestion des Utilisateurs
 
 Inscription, authentification sécurisée
 
 Rôles (Administrateur / Joueur), statut actif ou bloqué
+
 
 🔹 Gestion des Terrains
 
@@ -20,6 +22,7 @@ Multi-sports (Football, Tennis, Basketball, etc.)
 États : bon, en maintenance, hors service
 
 Tarification horaire flexible, images associées
+
 
 🔹 Réservations
 
@@ -31,11 +34,13 @@ Prévention des conflits et calcul des montants
 
 Annulations gérées automatiquement selon les cas
 
+
 🔹 Interfaces
 
 Administrateur : tableau de bord, gestion des utilisateurs, terrains, réservations
 
 Joueur : tableau de bord personnel, historique, réservation intuitive
+
 
 🔹 Statistiques
 
@@ -43,7 +48,9 @@ Pour joueurs : historique, sports favoris, dépenses
 
 Pour admin : utilisation des terrains, revenus, activité globale
 
-Technologies Utilisées
+
+
+Technologies Utilisées :
 Backend : PHP 7+ avec PDO
 
 Frontend : HTML5, CSS3, JavaScript (jQuery)
@@ -54,8 +61,11 @@ Serveur : Apache (XAMPP)
 
 Design : Responsive, CSS Grid/Flexbox
 
-Sécurité et Logique Métier
+
+
+Sécurité et Logique Métier :
 Sécurité renforcée : SQLi, XSS, sessions sécurisées, rôles
+
 
 Logique métier avancée :
 
@@ -63,12 +73,14 @@ Mise à jour automatique des réservations selon l’état du terrain ou le stat
 
 Algorithmes de détection de conflits et gestion dynamique des créneaux
 
+
 Avantages
 Solution complète, intuitive et sécurisée
 
 Adaptée aux centres sportifs, clubs et complexes multi-activités
 
 Facilement scalable et maintenable
+
 
 images de app : 
 

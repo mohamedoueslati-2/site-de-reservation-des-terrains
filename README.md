@@ -87,11 +87,7 @@ Pour les Joueurs
 Pour les Administrateurs
 • Vue d'ensemble du système
 • Statistiques d'utilisation des terrains
-• Gestion de
-
-Uploading yogast - Google Chrome 2025-06-08 00-41-02.mp4…
-
-s revenus
+• Gestion des revenus
 • Activité des utilisateurs
 
 AVANTAGES DU SYSTÈME

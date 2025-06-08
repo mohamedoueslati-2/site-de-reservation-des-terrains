@@ -114,9 +114,18 @@ parti utilisateur :
 page index visiteur :
 ![Capture d’écran (6)](https://github.com/user-attachments/assets/e16c1545-7c69-452f-8ba3-5d4349bee8df)
 ![Capture d’écran (7)](https://github.com/user-attachments/assets/fc672239-fce2-41d6-bc0f-be20dc928a92)
-![Uploading Capture d’écran (8).png…]()
+![Capture d’écran (8)](https://github.com/user-attachments/assets/e46b7273-6abc-41ce-936c-9d537fd0989d)
+![Capture d’écran (4)](https://github.com/user-attachments/assets/fe7d1db5-2d45-4887-97aa-c2e907c11f5f)
+![Capture d’écran (5)](https://github.com/user-attachments/assets/e28d2a00-e75c-4676-a6af-e733019a78d7)
 
 parti joueur : 
+![Capture d’écran (9)](https://github.com/user-attachments/assets/5f8105cf-9aa2-463c-bde5-5ed5a678b6ca)
+![Capture d’écran (10)](https://github.com/user-attachments/assets/1d68f42d-0c3e-47b7-8085-2d94bee3ed53)
+![Capture d’écran (11)](https://github.com/user-attachments/assets/838efeba-eb01-4455-b0df-b5ab4eb5827e)
+![Capture d’écran (10)](https://github.com/user-attachments/assets/91679637-472f-4619-b8ff-309e4dfe02bf)
+
+
+
 
 
 

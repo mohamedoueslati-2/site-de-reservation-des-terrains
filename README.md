@@ -1,113 +1,74 @@
 SYSTÈME DE GESTION DE RÉSERVATION DE TERRAINS SPORTIFS
 
-Description du Projet
-Application web développée en PHP permettant la gestion complète d'un centre sportif avec système de réservation en ligne. La solution offre deux interfaces distinctes : une pour les joueurs souhaitant réserver des terrains et une pour les administrateurs gérant l'ensemble du système.
+Le projet consiste en une application web développée en PHP permettant la gestion complète d’un centre sportif, avec un système de réservation en ligne. Elle propose deux interfaces principales :
 
-FONCTIONNALITÉS PRINCIPALES
+Une pour les joueurs (réservation, profil, historique)
 
-1. Gestion des Utilisateurs
-• Inscription et authentification sécurisée des joueurs
-• Gestion des profils utilisateurs
-• Système de rôles (Administrateur/Joueur)
-• Gestion des statuts (Actif/Bloqué)
+Une pour les administrateurs (gestion des terrains, utilisateurs et statistiques)
 
-2. Gestion des Terrains
-• Support multi-sports : Football, Tennis, Basketball, Volleyball, Badminton
-• États des terrains : Bon, En maintenance, Hors service
-• Tarification flexible par heure
-• Gestion des images de terrains
+Fonctionnalités Clés
+🔹 Gestion des Utilisateurs
 
-3. Système de Réservation
-• Créneaux horaires de 08h00 à 22h00
-• Vérification des disponibilités en temps réel
-• Prévention des conflits de réservation
-• Calcul automatique des montants
-• Gestion des annulations
+Inscription, authentification sécurisée
 
-4. Interface Administrateur
-• Tableau de bord avec statistiques globales
-• CRUD complet des terrains
-• Gestion des joueurs (activation/blocage)
-• Supervision des réservations
+Rôles (Administrateur / Joueur), statut actif ou bloqué
 
-5. Interface Joueur
-• Tableau de bord personnel avec statistiques
-• Historique des réservations avec filtres
-• Gestion du profil
-• Réservation intuitive des terrains
+🔹 Gestion des Terrains
 
-TECHNOLOGIES UTILISÉES
+Multi-sports (Football, Tennis, Basketball, etc.)
+
+États : bon, en maintenance, hors service
+
+Tarification horaire flexible, images associées
+
+🔹 Réservations
+
+Créneaux de 08h à 22h
+
+Vérification des disponibilités en temps réel
+
+Prévention des conflits et calcul des montants
+
+Annulations gérées automatiquement selon les cas
+
+🔹 Interfaces
+
+Administrateur : tableau de bord, gestion des utilisateurs, terrains, réservations
+
+Joueur : tableau de bord personnel, historique, réservation intuitive
+
+🔹 Statistiques
+
+Pour joueurs : historique, sports favoris, dépenses
+
+Pour admin : utilisation des terrains, revenus, activité globale
+
+Technologies Utilisées
 Backend : PHP 7+ avec PDO
+
 Frontend : HTML5, CSS3, JavaScript (jQuery)
-Base de données : MySQL
+
+Base de données : MySQL (4 tables principales)
+
 Serveur : Apache (XAMPP)
-Design : CSS Grid/Flexbox, Font Awesome
 
-Base de Données
-• 4 tables principales : joueurs, terrains, reservations, admin
-• Relations optimisées avec clés étrangères
-• Requêtes préparées pour la sécurité
+Design : Responsive, CSS Grid/Flexbox
 
-SÉCURITÉ IMPLÉMENTÉE
-• Protection SQL Injection via requêtes préparées
-• Protection XSS avec échappement HTML
-• Authentification par sessions sécurisées
-• Contrôle d'accès basé sur les rôles
-• Validation des données côté serveur
+Sécurité et Logique Métier
+Sécurité renforcée : SQLi, XSS, sessions sécurisées, rôles
 
-LOGIQUE MÉTIER AVANCÉE
+Logique métier avancée :
 
-Règles Automatiques
-• Changement d'état terrain → Annulation automatique des réservations
-• Blocage joueur → Annulation de toutes ses réservations actives
-• Vérification disponibilité → Contrôle en temps réel
-• Gestion des créneaux → Génération automatique sans chevauchement
+Mise à jour automatique des réservations selon l’état du terrain ou le statut joueur
 
-Algorithmes Intelligents
-• Détection des conflits temporels
-• Calcul dynamique des disponibilités
-• Mise à jour en cascade des statuts
-• Optimisation des créneaux horaires
+Algorithmes de détection de conflits et gestion dynamique des créneaux
 
-INTERFACE UTILISATEUR
-• Design responsive adaptatif mobile/desktop
-• Interface moderne avec variables CSS
-• Navigation intuitive avec breadcrumbs visuels
-• Feedback utilisateur avec messages contextuels
-• Validation temps réel des formulaires
+Avantages
+Solution complète, intuitive et sécurisée
 
-STATISTIQUES ET RAPPORTS
+Adaptée aux centres sportifs, clubs et complexes multi-activités
 
-Pour les Joueurs
-• Nombre total de réservations
-• Sports les plus pratiqués
-• Historique complet des activités
-• Montants dépensés
-
-Pour les Administrateurs
-• Vue d'ensemble du système
-• Statistiques d'utilisation des terrains
-• Gestion des revenus
-• Activité des utilisateurs
-
-AVANTAGES DU SYSTÈME
-• Solution complète pour centres sportifs
-• Interface dual adaptée aux besoins
-• Sécurité robuste pour données sensibles
-• Scalabilité pour croissance future
-• Maintenance facile avec code structuré
-
-CAS D'USAGE
-
-Idéal pour :
-• Centres sportifs municipaux ou privés
-• Complexes de loisirs multi-activités
-• Clubs sportifs souhaitant digitaliser leurs réservations
-• Associations gérant des équipements sportifs
-
-
-CONCLUSION
-Ce projet représente une solution professionnelle complète pour la gestion de terrains sportifs, intégrant toutes les fonctionnalités nécessaires pour un usage commercial : gestion des utilisateurs, réservations intelligentes, interface d'administration, sécurité robuste et design moderne.
+Facilement scalable et maintenable
 
 images de app : 
 
@@ -140,3 +101,47 @@ bd :
 ![Capture d’écran (24)](https://github.com/user-attachments/assets/d717d277-48a5-47cf-a84e-33b78f471476)
 ![Capture d’écran (22)](https://github.com/user-attachments/assets/0c7359db-11fd-421f-b59c-2c271b40f8c7)
 ![Capture d’écran (21)](https://github.com/user-attachments/assets/6f13ae0e-52f1-46cf-924c-c4352263f531)
+create base name bd
+
+-- Table Admin 
+CREATE TABLE admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    mot_de_passe VARCHAR(255)
+);
+
+-- Table Joueur (ajout de num_telephone)
+CREATE TABLE joueur (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    mot_de_passe VARCHAR(255),
+    num_telephone VARCHAR(20),
+    statut ENUM('actif', 'bloqué') DEFAULT 'actif'
+);
+
+-- Table Terrain (ajout de tarif_horaire)
+CREATE TABLE terrain (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100),
+    type ENUM('football', 'volleyball', 'basketball'),
+    etat ENUM('bon', 'en maintenance', 'hors service') DEFAULT 'bon',
+    tarif_horaire DECIMAL(10,2),
+    images TEXT
+);
+
+-- Table Reservation (ajout de paiement et montant_total)
+CREATE TABLE reservation (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    joueur_id INT,
+    terrain_id INT,
+    date DATE,
+    heure_debut TIME,
+    heure_fin TIME,
+    paiement ENUM('payé', 'non payé') DEFAULT 'non payé',
+    montant_total DECIMAL(10,2),
+    statut ENUM('confirmé', 'annulé') DEFAULT 'confirmé',
+    FOREIGN KEY (joueur_id) REFERENCES joueur(id) ON DELETE CASCADE,
+    FOREIGN KEY (terrain_id) REFERENCES terrain(id) ON DELETE CASCADE
+);

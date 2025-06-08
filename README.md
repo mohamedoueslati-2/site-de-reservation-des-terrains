@@ -78,6 +78,12 @@ Adaptée aux centres sportifs, clubs et complexes multi-activités
 
 Facilement scalable et maintenable
 
+digramme de cas : 
+![image](https://github.com/user-attachments/assets/7d4f0d6a-841c-4fbb-91ee-b9938c5f9316)
+
+digramme de classe :
+![image](https://github.com/user-attachments/assets/cb55a654-cadd-4647-b39e-6e225501657f)
+
 
 images de app : 
 

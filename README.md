@@ -3,7 +3,6 @@ SYSTÈME DE GESTION DE RÉSERVATION DE TERRAINS SPORTIFS
 Le projet consiste en une application web développée en PHP permettant la gestion complète d’un centre sportif, avec un système de réservation en ligne. Elle propose deux interfaces principales :
 
 Une pour les joueurs (réservation, profil, historique)
-
 Une pour les administrateurs (gestion des terrains, utilisateurs et statistiques)
 
 
@@ -49,8 +48,7 @@ Pour joueurs : historique, sports favoris, dépenses
 Pour admin : utilisation des terrains, revenus, activité globale
 
 
-
-Technologies Utilisées :
+🔹 Technologies Utilisées :
 Backend : PHP 7+ avec PDO
 
 Frontend : HTML5, CSS3, JavaScript (jQuery)
@@ -62,19 +60,18 @@ Serveur : Apache (XAMPP)
 Design : Responsive, CSS Grid/Flexbox
 
 
-
-Sécurité et Logique Métier :
+🔹Sécurité et Logique Métier :
 Sécurité renforcée : SQLi, XSS, sessions sécurisées, rôles
 
 
-Logique métier avancée :
+🔹Logique métier avancée :
 
 Mise à jour automatique des réservations selon l’état du terrain ou le statut joueur
 
 Algorithmes de détection de conflits et gestion dynamique des créneaux
 
 
-Avantages
+🔹Avantages
 Solution complète, intuitive et sécurisée
 
 Adaptée aux centres sportifs, clubs et complexes multi-activités

@@ -110,8 +110,8 @@ CONCLUSION
 Ce projet représente une solution professionnelle complète pour la gestion de terrains sportifs, intégrant toutes les fonctionnalités nécessaires pour un usage commercial : gestion des utilisateurs, réservations intelligentes, interface d'administration, sécurité robuste et design moderne.
 
 images de app : 
+
 parti utilisateur : 
-page index visiteur :
 ![Capture d’écran (6)](https://github.com/user-attachments/assets/e16c1545-7c69-452f-8ba3-5d4349bee8df)
 ![Capture d’écran (7)](https://github.com/user-attachments/assets/fc672239-fce2-41d6-bc0f-be20dc928a92)
 ![Capture d’écran (8)](https://github.com/user-attachments/assets/e46b7273-6abc-41ce-936c-9d537fd0989d)

@@ -87,7 +87,11 @@ Pour les Joueurs
 Pour les Administrateurs
 • Vue d'ensemble du système
 • Statistiques d'utilisation des terrains
-• Gestion des revenus
+• Gestion de
+
+Uploading yogast - Google Chrome 2025-06-08 00-41-02.mp4…
+
+s revenus
 • Activité des utilisateurs
 
 AVANTAGES DU SYSTÈME
@@ -108,3 +112,4 @@ Idéal pour :
 
 CONCLUSION
 Ce projet représente une solution professionnelle complète pour la gestion de terrains sportifs, intégrant toutes les fonctionnalités nécessaires pour un usage commercial : gestion des utilisateurs, réservations intelligentes, interface d'administration, sécurité robuste et design moderne.
+
